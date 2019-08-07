@@ -1,9 +1,11 @@
 #include <iostream>
+#include<string.h>
 using namespace std;
 void reverse(const string& a);
 int main()
 {
     string str;
+    
    
     getline(cin, str);
     reverse(str);
